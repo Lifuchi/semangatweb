@@ -3,14 +3,18 @@
 <head>
     <title>HelpYow - Login</title>
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
-    <style type="text/css" style="background-color:#deeaee; width: 100%"></style>
+    <style>
+        body{
+            background-color:#d5f4e6;
+        }
+    </style>
 </head>
 <body>
     <div align="center">
         <div class="col-md-4">
             <form action="#" method="post">
                 <div>
-                    <img src="helpyow.png" alt="Logo">
+                    <img src="img/helpyow.png" alt="Logo">
                     <h3>LOG IN</h3><br>
                 </div>
                 <div class="form-group">
@@ -24,10 +28,10 @@
                 </div>
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                    <label class="form-check-label" for="exampleCheck1">Ingat Saya</label>
                 </div><br>
                 <div>
-                    Not Registered yet? <a href="{{ url('reg') }}">Register Now</a>
+                    Belum Punya Akun? <a href="{{ url('reg') }}">Register Sekarang</a>
                 </div><br>
                 <button type="submit" class="btn btn-primary">Log In</button>
             </form>

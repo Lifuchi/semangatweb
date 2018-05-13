@@ -4,13 +4,18 @@
 	<title>HelpYow - Register</title>
 	<link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		body{
+			background-color:#d5f4e6;
+		}
+	</style>
 </head>
 <body>
-	<div align="center" style="background-color:#d5f4e6;">
+	<div align="center">
 		<div class="col-sm-9 col-md-8">
 			<form action="#" method="post">
 				<div>
-                    <img src="helpyow.png" alt="Logo">
+                    <img src="img/helpyow.png" alt="Logo">
                     <h3>REGISTER</h3>
                 </div>
 		  		<div class="form-row">
@@ -25,8 +30,8 @@
 		  		</div>
 		  		<div class="form-row">
 		    		<div class="form-group col-md-6">
-		     			<label for="fullName">Full Name</label>
-		      			<input type="text" class="form-control" id="fullName" placeholder="Your Name">
+		     			<label for="fullName">Nama Lengkap</label>
+		      			<input type="text" class="form-control" id="fullName" placeholder="Nama Anda">
 		    		</div>
 		    		<div class="form-group col-md-6">
 		      			<label for="userName">User Name</label>
@@ -34,22 +39,22 @@
 		    		</div>
 		  		</div>
 		  		<div class="form-group">
-		    		<label for="inputAddress">Address</label>
+		    		<label for="inputAddress">Alamat</label>
 			    	<input type="text" class="form-control" id="inputAddress"">
 			  	</div>
 			  	<div class="form-group">
-			    	<label for="inputTelp">Telephone</label>
+			    	<label for="inputTelp">Telepon</label>
 			    	<input type="text" class="form-control" id="inputTelp">
 			  	</div>
 				<div class="form-row">
 			    	<div class="form-group col-md-4">
-			      		<label for="inputCity">City</label>
+			      		<label for="inputCity">Kota</label>
 			      		<input type="text" class="form-control" id="inputCity" placeholder="Surabaya">
 			    	</div>
 			    	<div class="form-group col-md-8">
-			      		<label for="inputState">State</label>
+			      		<label for="inputState">Provinsi</label>
 			      		<select id="inputState" class="form-control">
-			        		<option selected>Choose...</option>
+			        		<option selected>Pilih...</option>
 			        		<option>Jawa Timur</option>
 			        		<option>Jawa Tengah</option>
 			        		<option>Jawa Barat</option>
@@ -60,11 +65,11 @@
 			  	<div class="form-group">
 			    	<div class="form-check">
 			      		<input class="form-check-input" type="checkbox" id="gridCheck">
-			      		<label class="form-check-label" for="gridCheck">Check me out</label>
+			      		<label class="form-check-label" for="gridCheck">Ingat Saya</label>
 			    	</div>
 			  	</div>
 			  	<div>
-                    Already Registered? <a href="{{ url('login') }}">Log In</a>
+                    Sudah Punya Akun? <a href="{{ url('login') }}">Log In</a>
                 </div><br>
 			  	<button type="submit" class="btn btn-primary">Register</button>
 			</form>
