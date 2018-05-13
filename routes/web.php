@@ -27,3 +27,7 @@ route::get('/reg', function() {
 route::get('/home', function() {
 	return view('home');
 });
+
+route::get('/coba', function() {
+	return view('coba');
+});
