@@ -1,6 +1,14 @@
+*{
+}
 
 body{
-	background-image: url('../img/bg_tiga.jpg'); 
-	background-attachment: fixed;
-	background-size: cover;
+
+}
+
+.container-fluid img {
+	filter: brightness(50%);
+}
+
+.container-fluid .row{
+	text-align: center;
 }
