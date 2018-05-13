@@ -23,7 +23,12 @@ route::get('/login', function() {
 route::get('/reg', function() {
 	return view('register');
 });
+<<<<<<< Updated upstream
 
 route::get('/home', function() {
 	return view('home');
+=======
+route::get('/daftar', function() {
+	return view('daftar');
+>>>>>>> Stashed changes
 });
