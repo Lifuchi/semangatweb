@@ -23,3 +23,7 @@ route::get('/login', function() {
 route::get('/reg', function() {
 	return view('register');
 });
+
+route::get('/home', function() {
+	return view('home');
+});
