@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+// misalnih
+route::get('/login', function() {
+	return view('login');
+});
