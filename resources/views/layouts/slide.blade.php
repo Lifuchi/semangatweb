@@ -1,4 +1,4 @@
-<div class="contai">
+<div class="containe">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -8,18 +8,25 @@
     </ol>
 
     <!-- Wrapper for slides -->
-     <div class="carousel-inner">
-      <div class="item active">
-        <img src="img/bg_satu.jpg" alt="Los Angeles" style="width:100%; height:550px;">
+     <div class="carousel-inner my-item">
+      <div class="item active ">
+        <img src="img/bg_satu.jpg" alt="s" style="width:100%; height:550px; background-size: cover;">
       </div>
 
       <div class="item">
-        <img src="img/bg_dua.jpg" alt="Chicago" style="width:100%; height:550px;">
+        <img src="img/bg_dua.jpg" alt="a" style="width:100%; height:550px; background-size: cover;">
       </div>
     
       <div class="item">
-        <img src="img/bg_tiga.jpg" alt="New york" style="width:100%; height:550px;">
+        <img src="img/bg_tiga.jpg" alt="b" style="width:100%; height:550px; background-size: cover;">
       </div>
+
+      <figure>
+  <div>
+    <span>Hover Me</span>
+    <span>Button</span>
+  </div>
+</figure>
     </div>
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -30,8 +37,7 @@
       <span class="glyphicon glyphicon-chevron-right"></span>
       <span class="sr-only">Next</span>
     </a>
+
+
   </div>
 </div>
-
-<br>
-<br>

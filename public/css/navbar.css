@@ -1,0 +1,10 @@
+.my-navbar {
+	border: 0;
+	border-radius: 0;
+	background-color: rgba(0 , 0 , 0 , 0.5);
+	position: absolute;
+}
+
+.my-item img {
+	filter : brightness(50%);
+}

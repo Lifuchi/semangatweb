@@ -1,9 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
-*{
-	top: 0px;
 
-
-}
 .inner {
   position: absolute; 
   margin: auto; 
@@ -135,7 +131,7 @@
   height: 100vh; 
   background-color: #0A0A0A; 
   transition: all 0.3s ease; 
-  z-index: 2; 
+  z-index: 20; 
 }
 
 .pageLoad.off {
@@ -158,3 +154,4 @@ body, html {
 body, html.on {
   overflow: auto; 
 }
+
