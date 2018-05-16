@@ -17,12 +17,9 @@ Route::get('/', function () {
 
 
 // misalnih
-route::get('/login', function() {
-	return view('login');
-});
-route::get('/reg', function() {
-	return view('register');
-});
+route::get('/login', 'FormController@login');
+route::get('/reg', 'FormController@register');
+
 
 route::get('/home', function() {
 	return view('home');
