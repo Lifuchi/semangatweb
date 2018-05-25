@@ -19,6 +19,9 @@ Route::get('/', function () {
 // misalnih
 route::get('/reg', 'FormController@register');
 
+route::get('/job', function() {
+	return view('pkjcleaner');
+});
 
 route::get('/home', function() {
 	return view('home');
