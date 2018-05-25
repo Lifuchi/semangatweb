@@ -17,7 +17,6 @@ Route::get('/', function () {
 
 
 // misalnih
-route::get('/login', 'FormController@login');
 route::get('/reg', 'FormController@register');
 
 
