@@ -21,7 +21,7 @@
 									<li><a href="#">API</a></li>
 								</ul> --}}
 							</li>
-							<li><a href="contact.html">Login</a></li>
+							<li><a href="#loginModal" data-toggle="modal" role="button">Login</a></li>
 						</ul>
 					</div>
 				</div>
@@ -30,3 +30,10 @@
 		</div>
 	</nav>
 
+<link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  @include('layouts.login')
+</div>
+
+<!-- <script src="{{ asset('js/login.js') }}"></script> -->
