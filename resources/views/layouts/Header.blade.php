@@ -5,6 +5,7 @@
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
+							
 							<h1>HelpYow make your life easier</h1>
 							<p class="btn btn-info "> Daftar Akun Pengguna</p>
 						</div>
