@@ -45,6 +45,8 @@
 	</head>
 	<body>
 	@include('layouts.navbar')
+
+	@include('layouts.footer')
 		
 	</body>
 </html>
