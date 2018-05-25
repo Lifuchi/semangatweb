@@ -48,6 +48,8 @@
 		<div id="page">
 	@include('layouts.navbar')
 
+
+	@include('layouts.Header')
 	@include('layouts.team')
 
 

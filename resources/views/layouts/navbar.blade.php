@@ -1,19 +1,6 @@
 
 	<nav class="fh5co-nav" role="navigation">
-		<div class="top">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 text-right">
-						<p class="num">Call: +6285 732 706 280</p>
-						<ul class="fh5co-social">
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble"></i></a></li>
-							<li><a href="#"><i class="icon-github"></i></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
+	
 		<div class="top-menu">
 			<div class="container">
 				<div class="row">
@@ -24,17 +11,17 @@
 						<ul>
 							<li class="active"><a href="index.html">Home</a></li>
 							<li><a href="gallery.html">Cleaner</a></li>
-							<li><a href="about.html">TechniciAn</a></li>
+							<li><a href="about.html">Technician</a></li>
 							<li class="has-dropdown">
-								<a href="blog.html">Blog</a>
-								<ul class="dropdown">
+								<a href="blog.html">Cara Kerja</a>
+							{{-- 	<ul class="dropdown">
 									<li><a href="#">Web Design</a></li>
 									<li><a href="#">eCommerce</a></li>
 									<li><a href="#">Branding</a></li>
 									<li><a href="#">API</a></li>
-								</ul>
+								</ul> --}}
 							</li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="contact.html">Login</a></li>
 						</ul>
 					</div>
 				</div>
