@@ -50,6 +50,9 @@
 
 	@include('layouts.team')
 
+
+	@include('layouts.footer')
+		
 	</div>
 	</body>
 
