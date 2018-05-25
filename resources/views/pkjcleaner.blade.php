@@ -50,7 +50,7 @@
 <body>
 	@include('layouts.navbar')
 	@include('layouts.cleaner')
-
+	@include('layouts.footer')
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
