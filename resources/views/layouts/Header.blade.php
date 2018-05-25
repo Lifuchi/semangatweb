@@ -6,7 +6,7 @@
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
 							<h1>Helpyow make your life easier</h1>
-							<p class="btn btn-primary "> Daftar Akun Pengguna</p>
+							<p class="btn btn-info "> Daftar Akun Pengguna</p>
 						</div>
 					</div>
 				</div>
