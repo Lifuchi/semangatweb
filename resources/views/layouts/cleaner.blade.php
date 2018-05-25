@@ -6,7 +6,7 @@
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
 							<h1>Cleaner</h1>
-							<h2>Helpyow membantu anda untuk mencari, menemukan, menyalurkan pekerja dalam bidang kebersihan dan rumah tangga: ART(Asisten Rumah Tangga), <em>BabySitter</em>, Nanny</h2>
+							<h2>HelpYow membantu Anda untuk mencari, menemukan, menyalurkan pekerja dalam bidang kebersihan dan rumah tangga: ART(Asisten Rumah Tangga), <em>Baby Sitter</em>, <em>Nanny</em></h2>
 						</div>
 					</div>
 				</div>
@@ -20,7 +20,7 @@
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<h2>CLEANER</h2>
-					<p>Cari pekerja untuk meringankan pekerjaan rumah tangga anda hanya di Helpyow.</p>
+					<p>Cari pekerja untuk meringankan pekerjaan rumah tangga Anda hanya di HelpYow.</p>
 				</div>
 			</div>
 		</div>

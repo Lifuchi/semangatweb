@@ -31,9 +31,10 @@ route::get('/home', function() {
 	return view('home');
 });
 
-route::get('/coba', function() {
-	return view('coba');
+route::get('/how', function() {
+	return view('carakerja');
 });
+
 route::get('/daftar', function() {
 	return view('daftar');
 });
