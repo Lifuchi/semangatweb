@@ -29,7 +29,7 @@
 					<div class="col-md-4 col-sm-4 col-xs-6">
 						<h3 style="color: #72ffe2">Pengguna Jasa</h3>
 						<ul class="fh5co-footer-links">
-							<li><a href="#">Login</a></li>
+							<li><a href="#loginModal" data-toggle="modal" role="button">Login</a></li>
 							<li><a href="#">Register</a></li>
 						</ul>
 					</div>
@@ -55,3 +55,22 @@
 
 		</div>
 	</footer>
+
+	<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLabel">LOG IN</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	        <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        @include('layouts.login')
+	      </div>
+
+	    </div>
+	  </div>
+	</div>
+
+<script src="{{ asset('js/login.js') }}"></script>
