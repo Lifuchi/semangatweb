@@ -35,9 +35,6 @@ route::get('/how', function() {
 	return view('carakerja');
 });
 
-route::get('/coba', function() {
-	return view('coba');
-});
 route::get('/daftar', function() {
 	return view('daftar');
 });
