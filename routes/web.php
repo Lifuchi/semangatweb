@@ -20,7 +20,7 @@ Route::get('/', function () {
 route::get('/reg', 'FormController@register');
 
 route::get('/job', function() {
-	return view('pekerja');
+	return view('pkjcleaner');
 });
 
 route::get('/home', function() {
