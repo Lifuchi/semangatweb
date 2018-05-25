@@ -23,6 +23,10 @@ route::get('/job', function() {
 	return view('pkjcleaner');
 });
 
+route::get('/job2', function() {
+	return view('pkjtech');
+});
+
 route::get('/home', function() {
 	return view('home');
 });
