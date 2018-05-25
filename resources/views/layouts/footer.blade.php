@@ -5,7 +5,7 @@
 				<div class="col-md-4 fh5co-widget">
 					<h3>Tentang HelpYow.</h3>
 					<p>HelpYow merupakan aplikasi web yang dapat mempertemukan pekerja (<em>cleaner</em> dan <em>technician</em>) dengan pengguna jasa.</p>
-					<p><a class="btn btn-primary" href="#">Bergabung sebagai pekerja</a></p>
+					<p><a class="btn btn-primary" style="background-color:#0cad9d" href="#">Bergabung sebagai pekerja</a></p>
 				</div>
 				<div class="col-md-8">					
 					<div class="col-md-4 col-sm-4 col-xs-6">
