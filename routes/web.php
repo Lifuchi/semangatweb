@@ -35,6 +35,4 @@ route::get('/CaraKerja', ['as' => 'caraKerjaView', 'uses' => 'NavbarController@C
 // 	return view('carakerja');
 // });
 
-// route::get('/navs', function() {
-// 	return view('daftar');
-// });
+Auth::routes();
