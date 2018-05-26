@@ -17,6 +17,7 @@ Route::get('/', function () {
 
 // misalnih
 route::get('/reg', ['as' => 'regView', 'uses' => 'FormController@register']);
+route::get('/daftar', ['as' => 'daftarView', 'uses' => 'FormController@daftar']);
 route::get('Cleaner',['as' => 'cleanerView', 'uses' => 'NavbarController@Cleaner']);
 route::get('/Technician', ['as' => 'technicianView', 'uses' => 'NavbarController@Technician']);
 route::get('/CaraKerja', ['as' => 'caraKerjaView', 'uses' => 'NavbarController@CaraKerja']);

@@ -5,11 +5,11 @@
 				<div class="col-md-4 fh5co-widget">
 					<h3>Tentang HelpYow.</h3>
 					<p>HelpYow merupakan aplikasi web yang dapat mempertemukan pekerja (<em>cleaner</em> dan <em>technician</em>) dengan pengguna jasa.</p>
-					<p><a class="btn btn-primary" style="background-color:#0cad9d" href="#">Bergabung sebagai pekerja</a></p>
+					<p><a class="btn btn-primary" style="background-color:#0cad9d" href=" {{URL::route('daftarView')}} ">Bergabung sebagai pekerja</a></p>
 				</div>
 				<div class="col-md-8">					
 					<div class="col-md-4 col-sm-4 col-xs-6">
-						<h3><a href="#">Cleaner</a></h3>
+						<h3><a href=" {{URL::route('cleanerView')}} ">Cleaner</a></h3>
 						<ul class="fh5co-footer-links">
 							<li>ART</a></li>
 							<li>Nanny</a></li>
@@ -18,7 +18,7 @@
 					</div>
 					
 					<div class="col-md-4 col-sm-4 col-xs-6">
-						<h3><a href="#">Technician</a></h3>
+						<h3><a href=" {{URL::route('technicianView')}} ">Technician</a></h3>
 						<ul class="fh5co-footer-links">
 							<li>Elektronika</a></li>
 							<li>Mekanika</a></li>
@@ -30,7 +30,7 @@
 						<h3 style="color: #72ffe2">Pengguna Jasa</h3>
 						<ul class="fh5co-footer-links">
 							<li><a href="#loginModal" data-toggle="modal" role="button">Login</a></li>
-							<li><a href="#">Register</a></li>
+							<!-- <li><a href="#">Register</a></li> -->
 						</ul>
 					</div>
 				</div>
