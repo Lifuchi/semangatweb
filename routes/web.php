@@ -15,29 +15,23 @@ Route::get('/', function () {
     return view('home');
 });
 
-
 // misalnih
-route::get('/reg', 'FormController@register');
+route::get('/reg', ['as' => 'regView', 'uses' => 'FormController@register']);
+route::get('Cleaner',['as' => 'cleanerView', 'uses' => 'NavbarController@Cleaner']);
+route::get('/Technician', ['as' => 'technicianView', 'uses' => 'NavbarController@Technician']);
+route::get('/CaraKerja', ['as' => 'caraKerjaView', 'uses' => 'NavbarController@CaraKerja']);
 
-route::get('/job', function() {
-	return view('pkjcleaner');
-});
+// route::get('/nav', function() {
+// 	return view('pkjcleaner');
+// });
 
-route::get('/job2', function() {
-	return view('pkjtech');
-});
+// route::get('/nav', function() {
+// 	return view('pkjtech');
+// });
 
-route::get('/home', function() {
-	return view('home');
-});
 
-route::get('/how', function() {
-	return view('carakerja');
-});
+// route::get('/nav', function() {
+// 	return view('carakerja');
+// });
 
-route::get('/daftar', function() {
-	return view('daftar');
-});
 Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
