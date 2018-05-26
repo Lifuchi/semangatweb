@@ -7,4 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 class Anggota extends Model
 {
     protected $table = 'anggota';
+
+    public function transaksi(){
+    	return $this->hasMany('Transaksi');
+    }
 }
