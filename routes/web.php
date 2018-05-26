@@ -15,26 +15,25 @@ Route::get('/', function () {
     return view('home');
 });
 
-
 // misalnih
 route::get('/reg', 'FormController@register');
+route::get('/nav', 'NavbarController@Cleaner');
+route::get('/nav', 'NavbarController@Technician');
+route::get('/nav', 'NavbarController@CaraKerja');
 
-route::get('/job', function() {
-	return view('pkjcleaner');
-});
+// route::get('/nav', function() {
+// 	return view('pkjcleaner');
+// });
 
-route::get('/job2', function() {
-	return view('pkjtech');
-});
+// route::get('/nav', function() {
+// 	return view('pkjtech');
+// });
 
-route::get('/home', function() {
-	return view('home');
-});
 
-route::get('/how', function() {
-	return view('carakerja');
-});
+// route::get('/nav', function() {
+// 	return view('carakerja');
+// });
 
-route::get('/daftar', function() {
+route::get('/nav', function() {
 	return view('daftar');
 });
