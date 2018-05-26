@@ -11,4 +11,10 @@ class Anggota extends Model
     public function transaksi(){
     	return $this->hasMany('Transaksi');
     }
+    public function cleaner(){
+    	return $this->belongsTo('Cleaner');
+    }
+    public function teknisi(){
+    	return $this->belongsTo('Teknisi');
+    }
 }
