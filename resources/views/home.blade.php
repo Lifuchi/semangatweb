@@ -47,16 +47,12 @@
 		<div class="fh5co-loader"></div>
 		<div id="page">
 	@include('layouts.navbar')
-
-
 	@include('layouts.Header')
 	@include('layouts.pekerja')
 	@include('layouts.servicehome')
 	@include('layouts.team')
-
-
 	@include('layouts.footer')
-		
+		{{-- halo --}}
 	</div>
 	</body>
 
