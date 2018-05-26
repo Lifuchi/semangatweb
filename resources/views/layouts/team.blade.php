@@ -1,4 +1,4 @@
-<div id="fh5co-trainer">
+<div id="fh5co-trainer" class="fh5co-bg-section">
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
