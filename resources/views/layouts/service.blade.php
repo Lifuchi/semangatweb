@@ -22,6 +22,22 @@
 
   <body id="page-top">
 
+    <header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url('/img/question.jpg');" data-stellar-background-ratio="0.5">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center">
+          <div class="display-t">
+            <div class="display-tc animate-box" data-animate-effect="fadeIn">
+              <h1>Cara Kerja</h1>
+              <h2>HelpYow membantu Anda mempermudah pencarian pekerja. Berikut cara kerja HelpYow: </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
 <section id="services">
       <div class="container">
         <div class="row">
@@ -31,8 +47,8 @@
             <h3 class="section-subheading text-muted"></h3>
           </div>
         </div>
-        <div class="row animate-box text-center">
-          <div class="col-md-4">
+        <div class="row text-center">
+          <div class="col-md-4 animate-box">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa fa-group fa-stack-1x fa-inverse"></i>
@@ -40,7 +56,7 @@
             <h4 class="service-heading">1. Perekrutan</h4>
             <p class="text-muted">Proses perekrutan pekerja dilakukan oleh HelpYow secara profesional. Proses ini dimulai dari tahap seleksi wawancara, medical check-up hingga pelatihan pekerja bersertifikat. HelpYow hanya akan mengirimkan pekerja yang dinilai memenuhi standar kualifikasi.</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 animate-box">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa fa-edit fa-stack-1x fa-inverse"></i>
@@ -48,7 +64,7 @@
             <h4 class="service-heading">2. Listing</h4>
             <p class="text-muted">Calon pekerja yang lolos seleksi wawancara dan medical check-up akan listing pada aplikasi HelpYow. Pada tahap ini, calon pengguna jasa sudah dapat melakukan booking pada calon pekerja pilihannya.</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 animate-box">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa fa-check fa-stack-1x fa-inverse"></i>
@@ -69,8 +85,8 @@
             <!-- <h3 class="section-subheading text-muted"></h3> -->
           </div>
         </div>
-        <div class="row text-center animate-box">
-          <div class="col-md-4">
+        <div class="row text-center">
+          <div class="col-md-4 animate-box">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa fa-search fa-stack-1x fa-inverse"></i>
@@ -78,7 +94,7 @@
             <h4 class="service-heading">4. Survey</h4>
             <p class="text-muted"> Pengguna jasa dapat melakukan pencarian untuk menemukan profil kandidat pekerja sesuai kriteria pada daftar listing pekerja. Status booking akan berlanjut pada proses kesepakatan.</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 animate-box">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa fa-handshake-o fa-stack-1x fa-inverse"></i>
@@ -86,7 +102,7 @@
             <h4 class="service-heading">5. Kesepakatan</h4>
             <p class="text-muted">Setelah melalui tahap survey, pengguna jasa akan menyepakati dokumen perjanjian dan pekerja akan diberangkatkan menuju lokasi setelah semua proses dan biaya administrasi dilakukan.</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 animate-box">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa fa-cogs fa-stack-1x fa-inverse"></i>
