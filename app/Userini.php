@@ -7,4 +7,14 @@ use Illuminate\Database\Eloquent\Model;
 class Userini extends Model
 {
     protected $table = 'user';
+    protected $fillable = [
+        'name', 'email', 'username', 'password', 'alamat', 'telepon', 'kota', 'provinsi',
+    ];
+    protected $hidden = [
+        'password', 'remember_token',
+    ];
+
+    public function transaksi(){
+    	return $this->hasMany('Transaksi');
+    }
 }
