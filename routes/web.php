@@ -38,3 +38,6 @@ route::get('/how', function() {
 route::get('/daftar', function() {
 	return view('daftar');
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
