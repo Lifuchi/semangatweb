@@ -16,10 +16,10 @@ Route::get('/', function () {
 });
 
 // misalnih
-route::get('/reg', 'FormController@register');
-route::get('/nav', 'NavbarController@Cleaner');
-route::get('/nav', 'NavbarController@Technician');
-route::get('/nav', 'NavbarController@CaraKerja');
+route::get('/reg', ['as' => 'regView', 'uses' => 'FormController@register']);
+route::get('Cleaner',['as' => 'cleanerView', 'uses' => 'NavbarController@Cleaner']);
+route::get('/Technician', ['as' => 'technicianView', 'uses' => 'NavbarController@Technician']);
+route::get('/CaraKerja', ['as' => 'caraKerjaView', 'uses' => 'NavbarController@CaraKerja']);
 
 // route::get('/nav', function() {
 // 	return view('pkjcleaner');
@@ -34,6 +34,6 @@ route::get('/nav', 'NavbarController@CaraKerja');
 // 	return view('carakerja');
 // });
 
-route::get('/nav', function() {
-	return view('daftar');
-});
+// route::get('/navs', function() {
+// 	return view('daftar');
+// });
