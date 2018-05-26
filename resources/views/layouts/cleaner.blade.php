@@ -28,7 +28,7 @@
 			<div class="row row-bottom-padded-md">
 				<div class="col-md-12">
 					<ul id="fh5co-portfolio-list">
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url('/img/gallery-1.jpg'); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url('/img/c1.jpg'); ">
 							<a href="#">
 								<div class="case-studies-summary">
 									<span>Illustration</span>
@@ -36,7 +36,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url('/img/gallery-2.jpg'); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url('/img/c2.jpg'); ">
 							<a href="#">
 								<div class="case-studies-summary">
 									<span>Web Design</span>
@@ -45,7 +45,7 @@
 							</a>
 						</li>
 
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url('/img/gallery-3.jpg'); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url('/img/c3.jpg'); ">
 							<a href="#">
 								<div class="case-studies-summary">
 									<span>Web Design</span>
@@ -54,7 +54,7 @@
 							</a>
 						</li>
 
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url('/img/gallery-4.jpg'); "> 
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url('/img/c4.jpg'); "> 
 							<a href="#">
 								<div class="case-studies-summary">
 									<span>Web Design</span>
@@ -62,7 +62,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url('/img/gallery-3.jpg'); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url('/img/c5.jpg'); ">
 							<a href="#">
 								<div class="case-studies-summary">
 									<span>Web Design</span>
@@ -70,19 +70,27 @@
 								</div>
 							</a>
 						</li>
-						<li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url('/img/gallery-5.jpg'); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url('/img/c6.jpg'); ">
 							<a href="#">
 								<div class="case-studies-summary">
 									<span>Illustration</span>
-									<h2>Beautiful sunset</h2>
+									<h2>Nanny</h2>
 								</div>
 							</a>
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url('/img/gallery-3.jpg'); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url('/img/c7.jpg'); ">
 							<a href="#">
 								<div class="case-studies-summary">
 									<span>Web Design</span>
 									<h2>Nanny</h2>
+								</div>
+							</a>
+						</li>
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url('/img/c8.jpg'); ">
+							<a href="#">
+								<div class="case-studies-summary">
+									<span>Web Design</span>
+									<h2>Baby Sitter</h2>
 								</div>
 							</a>
 						</li>
