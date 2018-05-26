@@ -50,6 +50,8 @@
 
 
 	@include('layouts.Header')
+	@include('layouts.pekerja')
+	@include('layouts.servicehome')
 	@include('layouts.team')
 
 
