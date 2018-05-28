@@ -21,7 +21,11 @@
 									<li><a href="#">API</a></li>
 								</ul> --}} -->
 							</li>
-							
+							<!-- @auth
+							<li><a href="#loginModal" data-toggle="modal" role="button">Logout</a></li>
+							@else -->
+							<li><a href="#loginModal" data-toggle="modal" role="button">Login</a></li>
+							<!-- @endauth -->
 						</ul>
 					</div>
 				</div>

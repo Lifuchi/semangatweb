@@ -102,7 +102,7 @@ class UsersController extends Controller
 
     //     auth()->login($user);
         
-    //     return redirect('/');
-    // }
+        return redirect('/');
+    }
 
 }
