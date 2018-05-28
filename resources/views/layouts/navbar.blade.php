@@ -14,14 +14,14 @@
 							<li><a href="{{URL::route('technicianView')}}">Technician</a></li>
 							<li class="has-dropdown">
 								<a href="{{URL::route('caraKerjaView')}}">Cara Kerja</a>
-							{{-- 	<ul class="dropdown">
+							<!-- {{-- 	<ul class="dropdown">
 									<li><a href="#">Web Design</a></li>
 									<li><a href="#">eCommerce</a></li>
 									<li><a href="#">Branding</a></li>
 									<li><a href="#">API</a></li>
-								</ul> --}}
+								</ul> --}} -->
 							</li>
-							<li><a href="#loginModal" data-toggle="modal" role="button">Login</a></li>
+							
 						</ul>
 					</div>
 				</div>

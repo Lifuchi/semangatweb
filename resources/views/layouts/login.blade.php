@@ -1,7 +1,8 @@
 
 <div align="center">
           <div class="col-md-12">
-            <form action="#" method="post">
+            <form action="{{ URL::to('/login') }}" method="post">
+              {{ csrf_field() }}
               <div>
                 <img src="img/helpyow.png" alt="Logo">
                 <h3>LOG IN</h3><br>

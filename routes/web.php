@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,7 +20,7 @@ route::get('/daftar', ['as' => 'daftarView', 'uses' => 'FormController@daftar'])
 route::get('/Cleaner',['as' => 'cleanerView', 'uses' => 'NavbarController@Cleaner']);
 route::get('/Technician', ['as' => 'technicianView', 'uses' => 'NavbarController@Technician']);
 route::get('/CaraKerja', ['as' => 'caraKerjaView', 'uses' => 'NavbarController@CaraKerja']);
-
+Route::post('/login', 'SessionsController@store');
 // route::get('/nav', function() {
 // 	return view('pkjcleaner');
 // });
