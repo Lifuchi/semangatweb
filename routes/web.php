@@ -21,6 +21,9 @@ route::get('/Cleaner',['as' => 'cleanerView', 'uses' => 'NavbarController@Cleane
 route::get('/Technician', ['as' => 'technicianView', 'uses' => 'NavbarController@Technician']);
 route::get('/CaraKerja', ['as' => 'caraKerjaView', 'uses' => 'NavbarController@CaraKerja']);
 Route::post('/login', 'SessionsController@store');
+
+Route::get('/anggota', 'AnggotaController@index');
+
 // route::get('/nav', function() {
 // 	return view('pkjcleaner');
 // });
