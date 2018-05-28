@@ -1,18 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>HelpYow - Register</title>
-	<link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<style>
-		body{
-			background-color:#d5f4e6;
-		}
-	</style>
-</head>
-<body>
-	<div align="center">
-		<div class="col-sm-9 col-md-8">
+
+	<div align="center" style="margin-left:300px;margin-right:300px;">
+		<div>
 			@if ($errors->any())
                 <div class="alert alert-danger">
                     <ul>
@@ -72,12 +60,6 @@
 			      		</select>
 			    	</div>
 			  	</div>
-			  	<div class="form-group">
-			    	<div class="form-check">
-			      		<input class="form-check-input" type="checkbox" id="gridCheck">
-			      		<label class="form-check-label" for="gridCheck">Ingat Saya</label>
-			    	</div>
-			  	</div>
 			  	<div>
                     Sudah Punya Akun? <a href="{{ url('/logini') }}">Log In</a>
                 </div><br>
@@ -85,5 +67,3 @@
 			</form>
 		</div><br>
 	</div>
-</body>
-</html>

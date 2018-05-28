@@ -19,7 +19,7 @@ class UsersController extends Controller
         }
     }
     public function login(){
-        return view('layouts.login');
+        return view('viewlogin');
     }
     public function loginPost(Request $request){
         $username = $request->username;
@@ -45,7 +45,7 @@ class UsersController extends Controller
         return redirect('logini')->with('alert','Kamu sudah logout');
     }
     public function register(Request $request){
-        return view('layouts.register');
+        return view('viewregister');
     }
     public function registerPost(Request $request){
         $this->validate($request, [
@@ -102,7 +102,6 @@ class UsersController extends Controller
 
     //     auth()->login($user);
         
-        return redirect('/');
-    }
+        // return redirect('/');
 
 }
