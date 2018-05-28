@@ -20,7 +20,14 @@ route::get('/daftar', ['as' => 'daftarView', 'uses' => 'FormController@daftar'])
 route::get('/Cleaner',['as' => 'cleanerView', 'uses' => 'NavbarController@Cleaner']);
 route::get('/Technician', ['as' => 'technicianView', 'uses' => 'NavbarController@Technician']);
 route::get('/CaraKerja', ['as' => 'caraKerjaView', 'uses' => 'NavbarController@CaraKerja']);
-Route::post('/login', 'SessionsController@store');
+
+
+Route::get('/home_user', 'UsersController@index');
+Route::get('/logini', 'UsersController@login');
+Route::post('/loginPost', 'UsersController@loginPost');
+Route::get('/registeri', 'UsersController@register');
+Route::post('/registerPost', 'UsersController@registerPost');
+Route::get('/logout', 'UsersController@logout');
 // route::get('/nav', function() {
 // 	return view('pkjcleaner');
 // });
