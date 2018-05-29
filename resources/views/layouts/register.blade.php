@@ -1,5 +1,5 @@
 
-	<div align="center" style="margin-left:300px;margin-right:300px;">
+	<div align="center" style="margin-left:200px;margin-right:200px;">
 		<div>
 			@if ($errors->any())
                 <div class="alert alert-danger">
@@ -36,11 +36,11 @@
 		      			<input type="text" class="form-control" id="userName" placeholder="username" name="username">
 		    		</div>
 		  		</div>
-		  		<div class="form-group">
+		  		<div class="form-group col-md-12">
 		    		<label for="inputAddress">Alamat</label>
 			    	<input type="text" class="form-control" id="inputAddress" name="alamat">
 			  	</div>
-			  	<div class="form-group">
+			  	<div class="form-group col-md-12">
 			    	<label for="inputTelp">Telepon</label>
 			    	<input type="text" class="form-control" id="inputTelp" name="telepon">
 			  	</div>

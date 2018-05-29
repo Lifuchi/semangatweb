@@ -33,11 +33,11 @@ class UsersController extends Controller
                 return redirect('/');
             }
             else{
-                return redirect('logini')->with('alert','Password atau Email, Salah !'.Hash::check($password,$data->password));
+                return redirect('logini')->with('alert','Password atau Username, Salah! (1)'.Hash::check($password,$data->password));
             }
         }
         else{
-            return redirect('logini')->with('alert','Password atau Email, Salahaa!');
+            return redirect('logini')->with('alert','Password atau Username, Salah! (2)');
         }
     }
     public function logout(){
