@@ -6,9 +6,12 @@ use App\Userini;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Session;
+use auth;
+use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
 class UsersController extends Controller
 {
+        use AuthenticatesUsers;
 
     public function index(){
         if(!Session::get('logini')){
@@ -18,30 +21,53 @@ class UsersController extends Controller
             return view('pkjcleaner');
         }
     }
+
     public function login(){
         return view('viewlogin');
     }
     public function loginPost(Request $request){
         $username = $request->username;
         $password = $request->password;
-        $data = Userini::where('username',$username)->first();
-        if(count($data) > 0){ //apakah email tersebut ada atau tidak
-            if(Hash::check($password,$data->password)){
-                Session::put('name',$data->name);
-                Session::put('username',$data->username);
-                Session::put('login',TRUE);
-                return redirect('/');
-            }
-            else{
-                return redirect('logini')->with('alert','Password atau Username, Salah! (1)'.Hash::check($password,$data->password));
-            }
-        }
-        else{
-            return redirect('logini')->with('alert','Password atau Username, Salah! (2)');
-        }
+  
+        $this->validate($request, [
+            'username' => 'required',
+            'password' => 'required',
+
+        ]);
+        
+        $username = $request->username;
+        $password = $request->password;
+  
+           if (Auth::attempt(['username'=>$username,'password'=>$password])){
+                        // return 'AAAFailure';
+                   Session::put('name',$username);
+                   // dd(Session['name']);
+                     echo Session::get('name') ;
+                 return redirect('/');                                  
+                 
+        }else{
+                       // return 'Failure';
+             return redirect('logini')->with('alert','Password atau Username, Salah!');
+                   }
+        // $data = Userini::where('username',$username)->first();
+        // if(count($data) > 0){ //apakah email tersebut ada atau tidak
+        //     if(Hash::check($password,$data->password)){
+        //         Session::put('name',$data->name);
+        //         Session::put('username',$data->username);
+        //         Session::put('login',TRUE);
+        //         return redirect('/');
+        //     }
+        //     else{
+        //         return redirect('logini')->with('alert','Password atau Username, Salah! (1)'.Hash::check($password,$data->password));
+        //     }
+        // }
+        // else{
+        //     return redirect('logini')->with('alert','Password atau Username, Salah! (2)');
+        // }
     }
     public function logout(){
         Session::flush();
+        Session()->flash('message' , 'bye');
         return redirect('logini')->with('alert','Kamu sudah logout');
     }
     public function register(Request $request){
@@ -58,11 +84,12 @@ class UsersController extends Controller
             'kota'=>'required',
             'provinsi'=>'required',
         ]);
+
         $data =  new Userini();
         $data->name = $request->name;
         $data->email = $request->email;
         $data->username = $request->username;
-        $data->password = bcrypt($request->password);
+        $data->password = Hash::make($request->password);
         $data->alamat = $request->alamat;
         $data->telepon = $request->telepon;
         $data->kota = $request->kota;
@@ -70,6 +97,10 @@ class UsersController extends Controller
         $data->save();
         return redirect('logini')->with('alert-success','Kamu berhasil Register');
     }
+    //  public function __construct()
+    // {
+    //     $this->middleware('auth');
+    // }
 
     // public function create()
     // {

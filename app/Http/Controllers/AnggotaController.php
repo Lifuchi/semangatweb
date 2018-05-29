@@ -1,6 +1,11 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Userini;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Session;
+use auth;
 
 use Illuminate\Http\Request;
 //use App\Anggota;
