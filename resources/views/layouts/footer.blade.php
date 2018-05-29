@@ -29,13 +29,8 @@
 					<div class="col-md-4 col-sm-4 col-xs-6">
 						<h3 style="color: #72ffe2">Pengguna Jasa</h3>
 						<ul class="fh5co-footer-links">
-							@if(Session::has('name'))
-							<li><a href="{{url('logout')}}">LogOut</a></li>
-							@else
-							<li><a href="{{url('loginx')}}">Login</a></li>
-							<li><a href="{{url('registerx')}}">Register</a></li>
-							@endif
-							
+							<li><a href="{{url('logini')}}">Login</a></li>
+							<li><a href="{{url('registeri')}}">Register</a></li>
 						</ul>
 					</div>
 				</div>
