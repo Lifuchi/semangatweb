@@ -12,16 +12,20 @@
 			<div class="row row-bottom-padded-md">
 				<div class="col-md-12">
 					<ul id="fh5co-portfolio-list">
-						<!-- @foreach($anggota as $ang )
+						@foreach($anggota as $ang )
 							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url('/img/{{$ang->id_anggota}}.jpg'); ">
-								<a href="#">
 									<div class="case-studies-summary">
 										<span>{{$ang->nama_lengkap}}</span>
-										<h2>{{$ang->pekerjaan}}</h2>
+										<span>{{$ang->tempat_lahir}}</span>
+										<span>{{$ang->tanggal_lahir}}</span>
+										<span>{{$ang->jenis_kelamin}}</span>
+										<span>{{$ang->alamat}}</span>
+										<span>{{$ang->harga}}</span>
+										<span>{{$ang->waktu}}</span>										
 									</div>
 								</a>
 							</li>
-						@endforeach -->
+						@endforeach
 					</ul>		
 				</div>
 			</div>

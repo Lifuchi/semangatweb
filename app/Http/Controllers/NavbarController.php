@@ -29,7 +29,10 @@ class NavbarController extends Controller
     	return view('carakerja');
     }
     public function ProfilPekerja($id){
-    	$anggota = DB::table('anggota')->where('id_anggota', '$id')->get();
+    	(int)$idd = (int)$id;
+    	//echo $idd;
+    	//echo gettype($idd);
+    	$anggota = DB::table('anggota')->where('id_anggota', $idd)->get();
 
     	return view('pkjprofil', ['anggota' => $anggota]);
     }
