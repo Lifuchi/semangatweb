@@ -3,6 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Userini;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Session;
+use auth;
+
 
 class SessionsController extends Controller
 {
@@ -10,7 +16,7 @@ class SessionsController extends Controller
     	return view('layouts.login');
     }
 
-    public function store(){
+    public function store(request $request){
     	$this->validate(request(),[
     		'username'=>'required',
     		'password'=>'required'
