@@ -30,7 +30,7 @@
 					<ul id="fh5co-portfolio-list">
 						@foreach($teknisi as $tech )
 							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url('/img/{{$tech->id_anggota}}.jpg'); ">
-								<a href="#">
+								<a href="{{ url('ProfilPekerja/'.$tech->id_anggota) }}">
 									<div class="case-studies-summary">
 										<span>{{$tech->nama_lengkap}}</span>
 										<h2>{{$tech->pekerjaan}}</h2>

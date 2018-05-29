@@ -32,8 +32,17 @@ class NavbarController extends Controller
     	(int)$idd = (int)$id;
     	//echo $idd;
     	//echo gettype($idd);
-    	$anggota = DB::table('anggota')->where('id_anggota', $idd)->get();
 
+    	$first =  DB::table('anggota')
+    				->rightJoin('cleaner', 'anggota.id_anggota', '=', 'cleaner.id_anggota')
+    				->where('anggota.id_anggota', $idd);
+
+    	$anggota = DB::table('anggota')
+    				->rightJoin('teknisi', 'anggota.id_anggota', '=', 'teknisi.id_anggota')
+    				->union($first)
+    				->where('anggota.id_anggota', $idd)->get();
+
+    	//echo $anggota;
     	return view('pkjprofil', ['anggota' => $anggota]);
     }
 }
