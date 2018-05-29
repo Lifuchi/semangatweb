@@ -16,7 +16,6 @@ Route::get('/', function () {
 
 // misalnih
 route::get('/reg', ['as' => 'regView', 'uses' => 'FormController@register']);
-route::get('/daftar', ['as' => 'daftarView', 'uses' => 'FormController@daftar']);
 route::get('/Cleaner',['as' => 'cleanerView', 'uses' => 'NavbarController@Cleaner']);
 route::get('/Technician', ['as' => 'technicianView', 'uses' => 'NavbarController@Technician']);
 route::get('/CaraKerja', ['as' => 'caraKerjaView', 'uses' => 'NavbarController@CaraKerja']);
@@ -28,6 +27,9 @@ Route::post('/loginPost', 'UsersController@loginPost');
 Route::get('/registeri', 'UsersController@register');
 Route::post('/registerPost', 'UsersController@registerPost');
 Route::get('/logout', 'UsersController@logout');
+
+route::get('/daftar', ['as' => 'daftarView', 'uses' => 'PendaftarController@daftar']);
+Route::post('/daftarPost', 'PendaftarController@store');
 // route::get('/nav', function() {
 // 	return view('pkjcleaner');
 // });
