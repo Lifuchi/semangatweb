@@ -20,7 +20,7 @@
               <div class="row">
               <div class="form-group" style="margin-left:300px;margin-right:300px;">
                 <!-- <label for="inputEmail">Email Address</label> -->
-                <input type="text" class="form-control" name="username" aria-describedby="unameHelp" placeholder="Enter Email">
+                <input type="text" class="form-control" name="username" aria-describedby="unameHelp" placeholder="Enter Username">
                 <!-- <small id="unameHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
                 </div>
               </div>

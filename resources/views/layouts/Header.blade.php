@@ -7,8 +7,11 @@
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
 							
 							<h1>HelpYow make your life easier</h1>
+							@if(Session::has('name'))
+							<a href="{{ URL::to('CaraKerja') }} "><p class="btn btn-info "> Cara Kerja</p></a>
+							@else
 							<a href="{{ url('register') }} "><p class="btn btn-info "> Daftar Akun Pengguna</p></a>
-							
+							@endif
 						</div>
 					</div>
 				</div>
