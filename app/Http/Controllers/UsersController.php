@@ -14,8 +14,8 @@ class UsersController extends Controller
         use AuthenticatesUsers;
 
     public function index(){
-        if(!Session::get('logini')){
-            return redirect('logini')->with('alert','Kamu harus login dulu');
+        if(!Session::get('loginx')){
+            return redirect('loginx')->with('alert','Kamu harus login dulu');
         }
         else{
             return view('pkjcleaner');
@@ -42,12 +42,12 @@ class UsersController extends Controller
                         // return 'AAAFailure';
                    Session::put('name',$username);
                    // dd(Session['name']);
-                     echo Session::get('name') ;
+                     // echo Session::get('name') ;
                  return redirect('/');                                  
                  
         }else{
                        // return 'Failure';
-             return redirect('logini')->with('alert','Password atau Username, Salah!');
+             return redirect('loginx')->with('alert','Password atau Username, Salah!');
                    }
         // $data = Userini::where('username',$username)->first();
         // if(count($data) > 0){ //apakah email tersebut ada atau tidak
@@ -68,7 +68,7 @@ class UsersController extends Controller
     public function logout(){
         Session::flush();
         Session()->flash('message' , 'bye');
-        return redirect('logini')->with('alert','Kamu sudah logout');
+        return redirect('loginx')->with('alert','Anda berhasil logout');
     }
     public function register(Request $request){
         return view('viewregister');
@@ -95,7 +95,7 @@ class UsersController extends Controller
         $data->kota = $request->kota;
         $data->provinsi = $request->provinsi;
         $data->save();
-        return redirect('logini')->with('alert-success','Kamu berhasil Register');
+        return redirect('loginx')->with('alert-success','Kamu berhasil Register');
     }
     //  public function __construct()
     // {

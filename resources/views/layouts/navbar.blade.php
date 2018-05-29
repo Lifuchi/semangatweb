@@ -30,9 +30,9 @@
 								{{-- <li><a href="{{url('logout')}}">LogOut</a></li> --}}
 							@endif
 
-							@guest
-							<li><a href="{{url('logini')}}">Login</a></li>
-							@endguest
+							<!-- @guest
+							<li><a href="{{url('loginx')}}">Login</a></li>
+							@endguest -->
 						</ul>
 					</div>
 				</div>
