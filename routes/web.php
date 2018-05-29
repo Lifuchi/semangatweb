@@ -23,8 +23,8 @@ route::get('/ProfilPekerja/{id}', 'NavbarController@ProfilPekerja');
 Route::get('/logout', 'UsersController@logout');
 Route::post('/registerPost', 'UsersController@registerPost');
 Route::post('/loginPost', 'UsersController@loginPost');
-Route::get('/login', 'UsersController@login');
-Route::get('/register', 'UsersController@register');
+Route::get('/loginx', 'UsersController@login');
+Route::get('/registerx', 'UsersController@register');
 route::get('/daftar', ['as' => 'daftarView', 'uses' => 'PendaftarController@daftar']);
 Route::post('/daftarPost', 'PendaftarController@store');
 Route::post('/registerPost', 'UsersController@registerPost');
@@ -45,4 +45,4 @@ Route::get('/anggota/{id}', 'AnggotaController@index');
 // 	return view('carakerja');
 // });
 
-// Auth::routes();
+Auth::routes();
