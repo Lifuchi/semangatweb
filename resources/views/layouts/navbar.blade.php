@@ -21,18 +21,24 @@
 									<li><a href="#">API</a></li>
 								</ul> --}} -->
 							</li>
-							@auth
-							<li><a href="{{url('logout')}}">LogOut</a></li>
-							@endauth
+	
+							@if(Session::has('name'))
+								<li><a href="{{url('logout')}}">LogOut</a></li>
+								{{-- <li><a href="{{url('loginx')}}">LogIn</a></li> --}}
+							@else
+								<li><a href="{{url('loginx')}}">LogIn</a></li>
+								{{-- <li><a href="{{url('logout')}}">LogOut</a></li> --}}
+							@endif
 
-							@guest
-							<li><a href="{{url('logini')}}">Login</a></li>
-							@endguest
+							<!-- @guest
+							<li><a href="{{url('loginx')}}">Login</a></li>
+							@endguest -->
 						</ul>
 					</div>
 				</div>
 				
 			</div>
 		</div>
+
 	</nav>
 

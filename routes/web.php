@@ -15,7 +15,7 @@ Route::get('/', function () {
 });
 
 // misalnih
-route::get('/reg', ['as' => 'regView', 'uses' => 'FormController@register']);
+// route::get('/reg', ['as' => 'regView', 'uses' => 'FormController@register']);
 route::get('/Cleaner',['as' => 'cleanerView', 'uses' => 'NavbarController@Cleaner']);
 route::get('/Technician', ['as' => 'technicianView', 'uses' => 'NavbarController@Technician']);
 route::get('/CaraKerja', ['as' => 'caraKerjaView', 'uses' => 'NavbarController@CaraKerja']);
@@ -23,14 +23,14 @@ route::get('/ProfilPekerja/{id}', 'NavbarController@ProfilPekerja');
 Route::get('/logout', 'UsersController@logout');
 Route::post('/registerPost', 'UsersController@registerPost');
 Route::post('/loginPost', 'UsersController@loginPost');
-Route::get('/logini', 'UsersController@login');
-Route::get('/registeri', 'UsersController@register');
+Route::get('/loginx', 'UsersController@login');
+Route::get('/registerx', 'UsersController@register');
 route::get('/daftar', ['as' => 'daftarView', 'uses' => 'PendaftarController@daftar']);
 Route::post('/daftarPost', 'PendaftarController@store');
 Route::post('/registerPost', 'UsersController@registerPost');
 Route::get('/logout', 'UsersController@logout');
 Route::get('/anggota', 'AnggotaController@index');
-Route::get('/home_user', 'UsersController@index');
+Route::get('/home', 'UsersController@index');
 Route::get('/anggota/{id}', 'AnggotaController@index');
 // route::get('/nav', function() {
 // 	return view('pkjcleaner');

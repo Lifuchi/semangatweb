@@ -20,7 +20,7 @@
               <div class="row">
               <div class="form-group" style="margin-left:300px;margin-right:300px;">
                 <!-- <label for="inputEmail">Email Address</label> -->
-                <input type="text" class="form-control" name="username" aria-describedby="unameHelp" placeholder="Enter Username">
+                <input type="text" class="form-control" name="username" aria-describedby="unameHelp" placeholder="Enter Email">
                 <!-- <small id="unameHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
                 </div>
               </div>
@@ -34,7 +34,7 @@
               </div>
               </div><br>
               <div>
-                Belum Punya Akun? <a href="{{ url('registeri') }}">Register Sekarang</a>
+                Belum Punya Akun? <a href="{{ url('registerx') }}">Register Sekarang</a>
               </div><br>
               <button type="submit" class="btn btn-primary">Log In</button>
             </form>
