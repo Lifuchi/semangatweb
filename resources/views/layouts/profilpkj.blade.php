@@ -25,6 +25,9 @@
 					</ul>		
 				</div>
 			</div>
+			@if(Session::has('name'))
+			<a href="{{ url('booking/'.$clean->id_anggota) }}" role="button" value=><p class="btn btn-info"> Booking</p></a>
+			@endif
 		</div>
 	</div>
 	</section>

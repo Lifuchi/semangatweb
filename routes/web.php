@@ -25,8 +25,8 @@ route::get('/ProfilPekerja/{id}', 'NavbarController@ProfilPekerja');
 Route::get('/logout', 'UsersController@logout');
 Route::post('/registerPost', 'UsersController@registerPost');
 Route::post('/loginPost', 'UsersController@loginPost');
-Route::get('/logini', 'UsersController@login');
-Route::get('/registeri', 'UsersController@register');
+Route::get('/loginx', 'UsersController@login');
+Route::get('/registerx', 'UsersController@register');
 route::get('/daftar', ['as' => 'daftarView', 'uses' => 'PendaftarController@daftar']);
 Route::post('/daftarPost', 'PendaftarController@store');
 Route::post('/registerPost', 'UsersController@registerPost');
@@ -34,7 +34,9 @@ Route::get('/logout', 'UsersController@logout');
 Route::get('/anggota', 'AnggotaController@index');
 Route::get('/home', 'UsersController@index');
 
-Route::get('/anggota/{id}', 'AnggotaController@index');
+// Route::get('/anggota/{id}', 'AnggotaController@index');
+
+Route::get('/booking/{id}', 'AnggotaController@book');
 // route::get('/nav', function() {
 // 	return view('pkjcleaner');
 // });

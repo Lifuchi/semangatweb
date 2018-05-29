@@ -20,4 +20,11 @@ class AnggotaController extends Controller
     	echo $anggota;
     	return view('anggota', ['anggota' => $anggota]);
 	}
+	public function book($id){
+		
+    	echo (int)$id;
+    	$anggota = DB::table('anggota')->select(DB::raw('*'))->where('id_anggota', '=', $id)->get();
+    	echo $anggota;
+    	return view('anggota', ['anggota' => $anggota]);
+	}
 }
