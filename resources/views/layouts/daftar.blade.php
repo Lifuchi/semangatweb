@@ -12,11 +12,12 @@
             <form method="post" action="{{ url('/daftarPost') }}" enctype="multipart/form-data">
             	{{ csrf_field() }}
                 <div>
+                	<img src="img/helpyow.png" alt="Logo">
                     <h3>Ayo Bergabung dengan HelpYow</h3><br>
                 </div>
                 <div class="form-group col-md-8">
 		    		<label for="namafull">Nama Lengkap</label>
-		      		<input type="text" class="form-control" id="namafull" placeholder="Nama Anda" name="nama_lengkap">
+		      		<input type="text" class="form-control" id="namafull" name="nama_lengkap">
 			  	</div>
 			  	<div class="form-group col-md-4">
 			      		<label for="inputGender">Jenis Kelamin</label>
@@ -39,7 +40,7 @@
 		  		<div class="form-row">
 		  			<div class="form-group col-md-8">
 			    		<label for="inputEmailReg">Email</label>
-			      		<input type="email" class="form-control" id="inputEmailReg" placeholder="Email" name="email">
+			      		<input type="email" class="form-control" id="inputEmailReg" name="email">
 			    	</div>
 			    	<div class="form-group col-md-4">
 				    	<label for="inputTelp">Telepon</label>

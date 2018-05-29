@@ -19,21 +19,21 @@
 		  		<div class="form-row">
 		    		<div class="form-group col-md-6">
 		     			<label for="inputEmailReg">Email</label>
-		      			<input type="email" class="form-control" id="inputEmailReg" placeholder="Email" name="email">
+		      			<input type="email" class="form-control" id="inputEmailReg" name="email">
 		    		</div>
 		    		<div class="form-group col-md-6">
 		      			<label for="inputPasswordReg">Password</label>
-		      			<input type="password" class="form-control" id="inputPasswordReg" placeholder="Password" name="password">
+		      			<input type="password" class="form-control" id="inputPasswordReg" name="password">
 		    		</div>
 		  		</div>
 		  		<div class="form-row">
 		    		<div class="form-group col-md-6">
 		     			<label for="fullName">Nama Lengkap</label>
-		      			<input type="text" class="form-control" id="fullName" placeholder="Nama Anda" name="name">
+		      			<input type="text" class="form-control" id="fullName" name="name">
 		    		</div>
 		    		<div class="form-group col-md-6">
-		      			<label for="userName">User Name</label>
-		      			<input type="text" class="form-control" id="userName" placeholder="username" name="username">
+		      			<label for="userName">Username</label>
+		      			<input type="text" class="form-control" id="userName" name="username">
 		    		</div>
 		  		</div>
 		  		<div class="form-group col-md-12">
@@ -47,7 +47,7 @@
 				<div class="form-row">
 			    	<div class="form-group col-md-4">
 			      		<label for="inputCity">Kota</label>
-			      		<input type="text" class="form-control" id="inputCity" placeholder="Surabaya" name="kota">
+			      		<input type="text" class="form-control" id="inputCity" name="kota">
 			    	</div>
 			    	<div class="form-group col-md-8">
 			      		<label for="inputState">Provinsi</label>

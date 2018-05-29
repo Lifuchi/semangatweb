@@ -30,7 +30,7 @@
 					<ul id="fh5co-portfolio-list">
 						@foreach($cleaner as $clean )
 							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url('/img/{{$clean->id_anggota}}.jpg'); ">
-								<a href="{{ URL::to('ProfilPekerja/'.$clean->id_anggota) }}">
+								<a href="{{ url('ProfilPekerja/'.$clean->id_anggota) }}">
 									<div class="case-studies-summary">
 										<span>{{$clean->nama_lengkap}}</span>
 										<h2>{{$clean->pekerjaan}}</h2>
