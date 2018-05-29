@@ -61,7 +61,7 @@
 			    	</div>
 			  	</div>
 			  	<div>
-                    Sudah Punya Akun? <a href="{{ url('/logini') }}">Log In</a>
+                    Sudah Punya Akun? <a href="{{ url('/login') }}">Log In</a>
                 </div><br>
 			  	<button type="submit" class="btn btn-primary">Register</button>
 			</form>

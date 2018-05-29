@@ -26,7 +26,7 @@
 							@endauth
 
 							@guest
-							<li><a href="{{url('logini')}}">Login</a></li>
+							<li><a href="{{url('login')}}">Login</a></li>
 							@endguest
 						</ul>
 					</div>
