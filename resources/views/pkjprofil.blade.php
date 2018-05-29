@@ -24,6 +24,7 @@
 	
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="{{ URL::asset('css/animate.css') }}">
+	URL::asset('img/{{$ang->id_anggota}}')
 	<!-- Icomoon Icon Fonts-->
 	<link rel="stylesheet" href="{{ URL::asset('css/icomoon.css') }}">
 	<!-- Bootstrap  -->

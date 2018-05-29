@@ -34,6 +34,9 @@ Route::get('/logout', 'UsersController@logout');
 Route::get('/anggota', 'AnggotaController@index');
 Route::get('/home', 'UsersController@index');
 
+Route::get('/ho', function () {
+    return view('home');
+});
 // Route::get('/anggota/{id}', 'AnggotaController@index');
 
 Route::get('/booking/{id}', 'AnggotaController@book');

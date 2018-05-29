@@ -14,7 +14,7 @@
 					<ul id="fh5co-portfolio-list">
 						@foreach($anggota as $ang )
 						<!-- <div class="row"> -->
-							<li class="one-third col-md-7 animate-box" data-animate-effect="fadeIn" style="background-image: url(img/{{$ang->id_anggota}}.jpg);"></li>
+							<li class="one-third col-md-7 animate-box" data-animate-effect="fadeIn" style="background-image:"URL::asset('/img/{{$ang->id_anggota}}.jpg');"></li>
 									<div class="col-md-2 animate-box" style="margin-left: 80px;">
 										<br>
 										<p>Nama</p>
