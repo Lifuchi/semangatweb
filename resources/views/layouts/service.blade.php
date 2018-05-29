@@ -30,7 +30,7 @@
           <div class="display-t">
             <div class="display-tc animate-box" data-animate-effect="fadeIn">
               <h1>Cara Kerja</h1>
-              <h2>HelpYow membantu Anda mempermudah pencarian pekerja. Berikut cara kerja HelpYow: </h2>
+              <h2>HelpYow membantu Anda dalam mempermudah pencarian pekerja</h2>
             </div>
           </div>
         </div>
@@ -44,6 +44,7 @@
           <div class="row animate-box">
           <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
             <h2 class="section-heading text-uppercase" style="margin: 50px">Cara Kerja</h2>
+            <p>Bagaimana HelpYow bekerja?</p>
             <h3 class="section-subheading text-muted"></h3>
           </div>
         </div>
@@ -76,7 +77,7 @@
         </div>
       </div>
     </section>
-
+    <br>
     <section id="services">
       <div class="container">
         <div class="row">
@@ -114,7 +115,8 @@
         </div>
       </div>
     </section>
-
+    <br>
+    <br>
     <!-- Bootstrap core JavaScript -->
     <script src="../../../public/vendor/jquery/jquery.min.js"></script>
     <script src="../../../public/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
