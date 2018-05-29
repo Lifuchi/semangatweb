@@ -24,10 +24,8 @@
 	
 							@if(Session::has('name'))
 								<li><a href="{{url('logout')}}">LogOut</a></li>
-								{{-- <li><a href="{{url('logini')}}">LogIn</a></li> --}}
 							@else
-								<li><a href="{{url('logini')}}">LogIn</a></li>
-								{{-- <li><a href="{{url('logout')}}">LogOut</a></li> --}}
+								<li><a href="{{url('loginx')}}">LogIn</a></li>
 							@endif
 
 

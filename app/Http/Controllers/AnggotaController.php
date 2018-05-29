@@ -13,15 +13,15 @@ use Illuminate\Support\Facades\DB;
 
 class AnggotaController extends Controller
 {
-    public function index($id){
+ //    public function index($id){
 		
-    	(int)$idd = (int)$id;
-    	echo $idd;
-    	echo gettype($idd);
-    	$anggota = DB::table('anggota')->where('id_anggota', '=', $idd)->get();
-    	echo $anggota;
-    	return view('anggota', ['anggota' => $anggota]);
-	}
+ //    	(int)$idd = (int)$id;
+ //    	echo $idd;
+ //    	echo gettype($idd);
+ //    	$anggota = DB::table('anggota')->where('id_anggota', '=', $idd)->get();
+ //    	echo $anggota;
+ //    	return view('anggota', ['anggota' => $anggota]);
+	// }
 	public function book($id){
 		
     	echo (int)$id;

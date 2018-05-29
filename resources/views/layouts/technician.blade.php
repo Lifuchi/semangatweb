@@ -1,4 +1,4 @@
-	<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url('/img/teknisi.jpg');" data-stellar-background-ratio="0.5">
+	<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(img/teknisi.jpg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -29,7 +29,7 @@
 				<div class="col-md-12">
 					<ul id="fh5co-portfolio-list">
 						@foreach($teknisi as $tech )
-							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url('/img/{{$tech->id_anggota}}.jpg'); ">
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(img/{{$tech->id_anggota}}.jpg); ">
 								<a href="{{ url('ProfilPekerja/'.$tech->id_anggota) }}">
 									<div class="case-studies-summary">
 										<span>{{$tech->nama_lengkap}}</span>
