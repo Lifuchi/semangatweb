@@ -28,72 +28,16 @@
 			<div class="row row-bottom-padded-md">
 				<div class="col-md-12">
 					<ul id="fh5co-portfolio-list">
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url('/img/t1.jpg'); ">
-							<a href="#">
-								<div class="case-studies-summary">
-									<span>Illustration</span>
-									<h2>Elektronika</h2>
-								</div>
-							</a>
-						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url('/img/t2.jpg'); ">
-							<a href="#">
-								<div class="case-studies-summary">
-									<span>Web Design</span>
-									<h2>Mekanika</h2>
-								</div>
-							</a>
-						</li>
-
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url('/img/t3.jpg'); ">
-							<a href="#">
-								<div class="case-studies-summary">
-									<span>Web Design</span>
-									<h2>Elektronika</h2>
-								</div>
-							</a>
-						</li>
-
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url('/img/t4.jpg'); "> 
-							<a href="#">
-								<div class="case-studies-summary">
-									<span>Web Design</span>
-									<h2>Handyman</h2>
-								</div>
-							</a>
-						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url('/img/t5.jpg'); ">
-							<a href="#">
-								<div class="case-studies-summary">
-									<span>Web Design</span>
-									<h2>Elektronika</h2>
-								</div>
-							</a>
-						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url('/img/t6.jpg'); ">
-							<a href="#">
-								<div class="case-studies-summary">
-									<span>Illustration</span>
-									<h2>Handyman</h2>
-								</div>
-							</a>
-						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url('/img/t7.jpg'); ">
-							<a href="#">
-								<div class="case-studies-summary">
-									<span>Web Design</span>
-									<h2>Handyman</h2>
-								</div>
-							</a>
-						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url('/img/t8.jpg'); ">
-							<a href="#">
-								<div class="case-studies-summary">
-									<span>Web Design</span>
-									<h2>Mekanika</h2>
-								</div>
-							</a>
-						</li>
+						@foreach($teknisi as $tech )
+							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url('/img/{{$tech->id_anggota}}.jpg'); ">
+								<a href="#">
+									<div class="case-studies-summary">
+										<span>{{$tech->nama_lengkap}}</span>
+										<h2>{{$tech->pekerjaan}}</h2>
+									</div>
+								</a>
+							</li>
+						@endforeach
 					</ul>		
 				</div>
 			</div>

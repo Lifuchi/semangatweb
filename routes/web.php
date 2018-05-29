@@ -20,13 +20,14 @@ route::get('/daftar', ['as' => 'daftarView', 'uses' => 'FormController@daftar'])
 route::get('/Cleaner',['as' => 'cleanerView', 'uses' => 'NavbarController@Cleaner']);
 route::get('/Technician', ['as' => 'technicianView', 'uses' => 'NavbarController@Technician']);
 route::get('/CaraKerja', ['as' => 'caraKerjaView', 'uses' => 'NavbarController@CaraKerja']);
+route::get('/ProfilPekerja/{id}', 'NavbarController@ProfilPekerja');
 Route::get('/logout', 'UsersController@logout');
 Route::post('/registerPost', 'UsersController@registerPost');
 Route::post('/loginPost', 'UsersController@loginPost');
 Route::get('/logini', 'UsersController@login');
 Route::get('/registeri', 'UsersController@register');
 Route::get('/home_user', 'UsersController@index');
-Route::get('/anggota', 'AnggotaController@index');
+Route::get('/anggota/{id}', 'AnggotaController@index');
 // route::get('/nav', function() {
 // 	return view('pkjcleaner');
 // });
