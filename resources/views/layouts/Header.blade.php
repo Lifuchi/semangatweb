@@ -7,7 +7,7 @@
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
 							
 							<h1>HelpYow make your life easier</h1>
-							<a href="{{URL::route('regView')}} "><p class="btn btn-info "> Daftar Akun Pengguna</p></a>
+							<a href="{{ url('registeri') }} "><p class="btn btn-info "> Daftar Akun Pengguna</p></a>
 							
 						</div>
 					</div>
