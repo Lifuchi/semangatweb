@@ -4,7 +4,7 @@
 	<title>Help Yow - Anggota</title>
 </head>
 <body>
-	{{$anggota}}
+	<!-- {{$anggota}} -->
 
 </body>
 </html>
