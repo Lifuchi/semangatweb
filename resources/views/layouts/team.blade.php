@@ -9,7 +9,7 @@
 			<div class="row">
 				<div class="col-md-4 col-sm-4 animate-box">
 					<div class="trainer">
-						<a href="#"><img class="img-responsive" src="img/helpyow.png" alt="trainer"></a>
+						<a href="#"><img class="img-responsive" src="img/mutia.jpg" alt="trainer"></a>
 						<div class="title">
 							<h3><a href="#">Navinda Meutia</a></h3>
 							<span>5116100015</span>
@@ -25,7 +25,7 @@
 				</div>
 				<div class="col-md-4 col-sm-4 animate-box">
 					<div class="trainer">
-						<a href="#"><img class="img-responsive" src="img/helpyow.png" alt="trainer"></a>
+						<a href="#"><img class="img-responsive" src="img/fadilla.jpg" alt="trainer"></a>
 						<div class="title">
 							<h3><a href="#">Fadilla Sukma A</a></h3>
 							<span>5116100024</span>
@@ -41,7 +41,7 @@
 				</div>
 				<div class="col-md-4 col-sm-4 animate-box">
 					<div class="trainer">
-						<a href="#"><img class="img-responsive" src="img/helpyow.png" alt="trainer"></a>
+						<a href="#"><img class="img-responsive" src="img/Rifka.jpg" alt="trainer"></a>
 						<div class="title">
 							<h3><a href="#">Rifka Annisa</a></h3>
 							<span>5116100036</span>

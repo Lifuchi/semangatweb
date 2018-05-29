@@ -34,7 +34,7 @@
               </div>
               </div><br>
               <div>
-                Belum Punya Akun? <a href="{{ url('registerx') }}">Register Sekarang</a>
+                Belum Punya Akun? <a href="{{ url('registeri') }}">Register Sekarang</a>
               </div><br>
               <button type="submit" class="btn btn-primary">Log In</button>
             </form>
